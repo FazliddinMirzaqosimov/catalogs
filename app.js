@@ -5,7 +5,6 @@ const adminRoutes = require("./routers/adminRouter");
 const articleRoutes = require("./routers/articleRouter");
 const categoryRoutes = require("./routers/categoryRouter");
 const productRoutes = require("./routers/productRouter");
-const swaggerRoutes = require("./routers/swaggerRoutes");
 const mediaRoutes = require("./routers/mediaRouter");
 
 const app = express();
@@ -27,8 +26,8 @@ app.use("/api/v1/media", mediaRoutes);
 
 module.exports = app;
 
-// PASSWORD = T0IXJPWBrihRsQls
-// DATABASE = mongodb+srv://islombek:<password>@cluster0.xyhpaf2.mongodb.net/?retryWrites=true&w=majority
+// PASSWORD = T0IXJPWBrihRsQlsq
+// DATABASE = mongodb+srv://ilombek:<password>@cluster0.xyhpaf2.mongodb.net/?retryWrites=true&w=majority
 // APP_URL = localhost:3000
 
 // JWT_SECRET = thiswisjwtsecret
